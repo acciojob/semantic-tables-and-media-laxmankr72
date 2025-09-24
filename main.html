@@ -1,54 +1,57 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Semantic Tables and Media</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<table border=1>
-		<thead>
-			<tr>
-				<th>Roll numbers</th>
-				<th>Name</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>101</td>
-				<td>Laxman</td>
-			</tr>
-			<tr>
-				<td>102</td>
-				<td>jitendra</td>
-			</tr>
-			<tr>
-				<td>103</td>
-				<td>sumit</td>
-			</tr>
-		</tbody>
-	</table>
-	<h1>List of medias</h1>
-	<ol>
-		<li>
-			<img src="https://picsum.photos/id/123/200/300" alt="somthing went wrong">
-		</li>
-		<li>
-			<video controls>
-				<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
-			</video>
-		</li>
-		<li>
-			<audio controls>
-				<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
-			</audio>
-		</li>
-	</ol>
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- Semantic Table -->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Roll numbers</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>101</td>
+        <td>Laxman</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Jitendra</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Sumit</td>
+      </tr>
+    </tbody>
+  </table>
 
+  <!-- Heading between table and list -->
+  <h2>List of medias</h2>
+
+  <!-- Ordered List -->
+  <ol>
+    <li>
+      <img src="https://picsum.photos/id/123/200/300" alt="Random sample image">
+    </li>
+    <li>
+      <video controls width="320">
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </li>
+    <li>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </li>
+  </ol>
+
+  <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
